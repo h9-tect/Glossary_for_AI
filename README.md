@@ -1,95 +1,94 @@
 # Math Glossary
 
-**Hessian**  
-A square matrix of second-order partial derivatives of a scalar-valued function, which is used in optimization to determine the curvature of multivariable functions.
+### Hessian
+The Hessian matrix is a square matrix of second-order partial derivatives of a scalar-valued function. It describes the local curvature of a function of many variables.
 
-**Random Variable**  
-A variable whose possible values are numerical outcomes of a random phenomenon, categorized into discrete (finite or countable outcomes) and continuous (infinite outcomes).
+### Random Variable
+A random variable is a variable whose possible values are numerical outcomes of a random phenomenon. There are two types of random variables: discrete and continuous.
 
-**Matrix**  
-A rectangular array of numbers, symbols, or expressions, arranged in rows and columns, used in linear algebra to represent systems of linear equations and perform various matrix operations.
+### Matrix
+A matrix is a rectangular array of numbers or other mathematical objects, for which operations such as addition and multiplication are defined. Matrices are fundamental to modern science and engineering.
 
-**Entropy**  
-In information theory, entropy is a measure of the unpredictability or randomness of a data source, indicating the amount of uncertainty in the next piece of information.
+### Entropy
+In information theory, entropy is a measure of the unpredictability or the randomness of information content.
 
-**Mutual Information**  
-A measure that quantifies the amount of information obtained about one random variable through another, reflecting the reduction in uncertainty for one variable given a known value of another.
+### Mutual Information
+Mutual information measures the amount of information that can be obtained about one random variable by observing another.
 
-**Dot Product**  
-An algebraic operation that takes two equal-length sequences of numbers (usually coordinate vectors) and returns a single number, used to determine angles between vectors or calculate physical quantities like work.
+### Dot Product
+The dot product is an algebraic operation that takes two equal-length sequences of numbers and returns a single number obtained by multiplying corresponding entries and then summing those products.
 
-**Mean**  
-The average value of a dataset, calculated as the sum of all data points divided by the number of points, representing the central tendency of the data.
+### Mean
+The mean or average is the central value of a discrete set of numbers, specifically, the sum of the values divided by the number of values.
 
-**Variance**  
-A statistical measure of the dispersion of data points in a dataset, calculated as the average of the squared differences from the Mean.
+### Variance
+Variance is a measure of the dispersion of a set of data points around their mean value. It is a mathematical expectation of the average squared deviations from the mean.
 
-**L2 Norm**  
-Also known as the Euclidean norm, it represents the distance from the origin to the point in a Euclidean space, calculated as the square root of the sum of the squares of its components.
+### L2 Norm
+The L2 norm is the Euclidean norm, which represents the length of a vector in Euclidean space, calculated from the square root of the sum of the squared vector components.
 
-**Chain Rule (Differentiation)**  
-A fundamental calculus rule for finding the derivative of composite functions, stating that the derivative is the product of the derivatives of the composed functions.
+### Chain Rule (Differentiation)
+The chain rule is a formula to compute the derivative of a composite function.
 
-**Fourier Transform**  
-A mathematical transform that decomposes functions depending on space or time into functions depending on frequency, used extensively in signal analysis and physics.
+### Fourier Transform
+The Fourier Transform is a mathematical transform that decomposes functions depending on space or time into functions depending on spatial or temporal frequency.
 
-**Continuity**  
-A function is continuous if, at every point in the domain, the limit of the function as it approaches the point equals the function's value at that point.
+### Continuity
+A function is continuous if, at every point in the function's domain, the function's value at that point equals the limit of the function's values at nearby points.
 
-**Lipschitz Continuity**  
-A function satisfies Lipschitz continuity if there exists a constant such that, for all point pairs in its domain, the absolute difference in function values is bounded by the product of the constant and the distance between points.
+### Lipschitz Continuity
+A function is Lipschitz continuous if there exists a real constant such that, for all points in the function's domain, the absolute difference in the function's values at two points is bounded by the product of the absolute difference between the points and the constant.
 
-**Chain Rule (Probability)**  
-A probability theory rule that allows the computation of the joint distribution of a set of random variables using only conditional probabilities.
+### Chain Rule (Probability)
+The chain rule in probability theory is a fundamental rule calculating the probability of a sequence of events.
 
-**Polynomial**  
-An expression consisting of variables and coefficients, involving only the operations of addition, subtraction, multiplication, and non-negative integer exponentiation.
+### Polynomial
+A polynomial is an expression consisting of variables (or indeterminates) and coefficients, that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponents of variables.
 
-**Cantor's Diagonal Argument**  
-A mathematical proof demonstrating that there are infinite sets which cannot be put into one-to-one correspondence with the infinite set of natural numbers.
+### Cantor's Diagonal Argument
+Cantor's diagonal argument is a mathematical proof that there are sets which cannot be put into one-to-one correspondence with the natural numbers, such as the set of real numbers, proving it uncountable.
 
-**Jacobian**  
-A matrix of all first-order partial derivatives of a vector-valued function, important for transformations of coordinates and differential equations.
+### Jacobian
+The Jacobian matrix is the matrix of all first-order partial derivatives of a vector-valued function. It generalizes the gradient of a scalar-valued function.
 
-**Linear Operator**  
-A mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+### Linear Operator
+A linear operator is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication.
 
-**Gradient**  
-In vector calculus, the gradient of a scalar function is a vector field that points in the direction of the greatest rate of increase of the function.
+### Gradient
+The gradient of a function is a vector field which represents the direction and rate of fastest increase of the function.
 
-**Bayes' Theorem**  
-A fundamental theorem in probability theory that describes the probability of an event based on prior knowledge of conditions that might be related to the event.
+### Bayes' Theorem
+Bayes' Theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
 
-**Vector**  
-An object with both magnitude and direction, used to describe quantities in physics and engineering.
+### Vector
+In mathematics and physics, a vector is an element of a vector space. For many specific vector spaces, the vectors have received specific names, which are listed below.
 
-**Joint Law, Product Law**  
-The joint law refers to the joint probability distribution of two or more random variables, and the product law is a rule to find the probability that two events both occur.
+### Joint Law, Product Law
+The joint law describes the behavior of two random variables considered together. The product law calculates the joint distribution of two independent random variables.
 
-**Gaussian Distribution**  
-Also known as the normal distribution, it's a probability distribution that describes how the values of a variable are distributed. It is the basis for the bell-shaped curve.
+### Gaussian Distribution
+The Gaussian distribution, often called the normal distribution, is an extremely common continuous probability distribution—a function that tells the probability of a number in some context falling between any two real numbers.
 
-**Distribution**  
-In statistics, a distribution is a function that shows the possible values for a variable and the frequency of these values.
+### Distribution
+In statistics, a distribution is a listing or function showing all the possible values (or intervals) of the data and how often they occur.
 
-**Determinant**  
-A scalar value that can be computed from the elements of a square matrix and encodes properties like the matrix's invertibility.
+### Determinant
+The determinant is a scalar value that can be computed from the elements of a square matrix and encodes certain properties of the matrix.
 
-**Rank**  
-The rank of a matrix is defined as the maximum number of linearly independent row or column vectors in the matrix.
+### Rank
+The rank of a matrix is the maximum number of linearly independent row vectors in the matrix, which is the same as the maximum number of linearly independent column vectors.
 
-**Eigen-decomposition**  
-The process of decomposing a matrix into eigenvalues and eigenvectors, which is crucial for solving systems of linear equations, among other applications.
+### Eigen-decomposition
+Eigen-decomposition is the method of decomposing a square matrix into its eigenvalues and eigenvectors, which is an important tool for simplifying matrix operations and analyzing systems.
 
-**SVD**  
-Singular value decomposition, a method of decomposing a matrix into three matrices, exposing many of the useful properties of the original matrix.
+### SVD (Singular Value Decomposition)
+Singular value decomposition is a factorization of a real or complex matrix that generalizes the eigendecomposition of a square normal matrix to any \(m \times n\) matrix via an extension of the polar decomposition.
 
-**Maximum Likelihood**  
-A method of estimating the parameters of a statistical model, which maximizes the likelihood that the process described by the model produces the observed data.
+### Maximum Likelihood
+The maximum likelihood estimation (MLE) is a method of estimating the parameters of a statistical model, given observations, by finding the parameter values that maximize the likelihood of making the observations given the parameters.
 
-**Central Limit Theorem**  
-A statistical theory that states when independent random variables are added, their normalized sum tends toward a normal distribution, regardless of the original variables' distribution.
-
+### Central Limit Theorem
+The central limit theorem states that, in most situations, when a large number of independent random variables are added, their properly normalized sum tends toward a normal distribution, even if the original variables themselves are not normally distributed.
 # Computer Science Glossary
 
 
