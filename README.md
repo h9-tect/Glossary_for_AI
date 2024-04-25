@@ -171,68 +171,67 @@ In computational theory, complexity refers to the amount of resources required f
 
 
 ### VC Dimension
-The Vapnik-Chervonenkis (VC) dimension is a measure of the capacity of a statistical classification algorithm, defined as the cardinality of the largest set of points that the algorithm can shatter. It is used to quantify the complexity and capacity of a model to learn various functions.
+VC Dimension is a measure of the capacity of a statistical classification model, defined as the size of the largest dataset that can be shattered by the classifier. It helps in understanding the model's ability to generalize to unseen data.
 
 ### Over-fitting, Under-fitting
-**Over-fitting** occurs when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. **Under-fitting** occurs when a model is too simple, both in terms of not capturing the underlying pattern of the data and not performing well on new data.
+**Over-fitting** occurs when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. **Under-fitting** occurs when a model cannot capture the underlying trend of the data and fails to perform well even on the training data.
 
 ### Logistic Regression
-Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model.
+Logistic regression is a statistical model that uses a logistic function to model a binary dependent variable. In regression analysis, logistic regression estimates the parameters of a logistic model, and is used extensively in fields like medicine and social sciences.
 
 ### Q-value
-In reinforcement learning, a Q-value is a measure of the value of taking a particular action in a particular state, according to what the model currently knows about the environment. Q-values are used in certain types of learning algorithms to iteratively improve the behavior of the learning agent.
+In reinforcement learning, the Q-value represents the quality of a particular action taken from a particular state. It provides the expected future rewards for that action taken in that state.
 
 ### Kernel Trick
-The kernel trick is a method used in machine learning algorithms that enables them to operate in a high-dimensional, implicit feature space without ever computing the coordinates of the data in that space, but instead by computing the inner products between the images of all pairs of data in the feature space.
+The kernel trick is a method used in machine learning algorithms that allows them to operate in a high-dimensional space without explicitly mapping data points into it. This trick is particularly used in support vector machines.
 
 ### Boosting
-Boosting is an ensemble technique that attempts to create a strong classifier from a number of weak classifiers. It is done by building a model from the training data, then creating a second model that attempts to correct the errors from the first model.
+Boosting is an ensemble technique that improves the prediction strength of a model by combining multiple weak models to create a strong model. Boosting sequentially applies the weak classification algorithm to repeatedly modified versions of the data, producing a sequence of weak classifiers.
 
 ### PCA (Principal Component Analysis)
 Principal Component Analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.
 
 ### Feature Design
-Feature design, also known as feature engineering, is the process of using domain knowledge of the data to create features that make machine learning algorithms work. It is fundamental to the application of machine learning, and involves an aspect of art as much as science.
+Feature design, or feature engineering, involves creating new features or modifying existing features which can be used to improve the performance of machine learning algorithms.
 
 ### Linear Regression
-Linear regression is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables).
+Linear regression is a statistical approach for modeling the relationship between a dependent variable with a given set of independent variables. It is one of the simplest forms of regression analysis.
 
 ### Expectation-Maximization, GMM
-The **Expectation-Maximization (EM)** algorithm is an iterative method to find maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent variables. **Gaussian Mixture Models (GMMs)** are a type of model used in statistical data modeling involving multiple sub-populations, assuming that each sub-population follows a Gaussian distribution.
+**Expectation-Maximization (EM)** is an iterative method to find maximum likelihood estimates of parameters in statistical models, where the model depends on unobserved latent variables. **Gaussian Mixture Models (GMMs)** are a probabilistic model for representing normally distributed subpopulations within an overall population.
 
 ### SVM (Support Vector Machine)
-Support Vector Machine (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. It performs classification by finding the hyperplane that best divides a dataset into classes.
+Support Vector Machine (SVM) is a powerful classification technique that works by finding a hyperplane that best divides a dataset into classes.
 
 ### Bellman Equation
-The Bellman equation, also known as dynamic programming equation, describes the principle of optimality for dynamic systems. It plays a crucial role in reinforcement learning and optimal control.
+The Bellman equation, named after Richard Bellman, is a recursive equation and plays a central role in dynamic programming. It describes the relationship between the value of a decision problem at one point in time and the value at the next time.
 
 ### Decision Tree
-A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility.
+A decision tree is a decision support tool that uses a tree-like graph of decisions and their possible consequences. It is one way to display an algorithm that only contains conditional control statements.
 
 ### Train/Validation/Test Sets
-These sets are used to evaluate how well a machine learning model will perform on independent data. **Training set** is used to train the model, **validation set** is used to tune the parameters of the model, and **test set** is used to test the performance of the model.
+**Training set** is a dataset used to train a model. **Validation set** is a dataset used to provide an unbiased evaluation of a model fit on the training dataset while tuning the model's hyperparameters. **Test set** is a dataset used to provide an unbiased evaluation of a final model fit on the training dataset.
 
 ### Naive Bayesian Model
-Naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' theorem with strong (naive) independence assumptions between the features.
+A Naive Bayesian model is a classification technique based on Bayes' Theorem with an assumption of independence among predictors. It is easy to build and particularly useful for very large datasets.
 
 ### Autoregressive Model
-An autoregressive model is a representation of a type of random process; as such, it is used to describe certain time-varying processes in nature, economics, etc.
+Autoregressive models are used for modeling time series data, where current values are based on previous time series values.
 
 ### Bias-Variance Dilemma
-The bias-variance dilemma is the problem of simultaneously minimizing two sources of error that prevent supervised learning algorithms from generalizing beyond their training set: the bias, which is the error caused by approximations, and the variance, which is the error caused by random fluctuations in the training set.
+The bias-variance dilemma is the conflict in trying to simultaneously minimize these two sources of error that prevent supervised learning algorithms from generalizing beyond their training set.
 
 ### Policy Gradient
-Policy gradient methods are a class of reinforcement learning techniques that rely upon optimizing parametrized policies with respect to the expected return by gradient descent.
+Policy gradient methods are a type of reinforcement learning techniques that optimize the parameters of a policy by gradients estimated from the reward received.
 
 ### Random Forest
-Random Forest is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+Random Forest is an ensemble learning method for classification, regression, and other tasks, that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes or mean prediction of the individual trees.
 
 ### k-NN (k-Nearest Neighbors)
-The k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression. In both cases, the input consists of the k closest training examples in the feature space.
+k-Nearest Neighbors algorithm is a non-parametric method used for classification and regression. In both cases, the input consists of the k closest training examples in the feature space.
 
 ### Perceptron Algorithm
-The perceptron is a simple algorithm for binary classifiers that is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.
-
+The perceptron is one of the simplest types of artificial neural networks and is a linear classifier that classifies data into two parts by a linear separator.
 
 # Deep Learning Glossary
 
