@@ -1,4 +1,11 @@
+## Repository Overview
+
+This repository is based on the insights shared by Professor François Fleuret. For more details, you can view his original tweet [here](https://twitter.com/francoisfleuret/status/1783384529115230346).
+![here is the orginal pic wriiten by him](images/example.jpg)
+
+
 # Math Glossary
+
 
 ### Hessian
 The Hessian matrix is a square matrix of second-order partial derivatives of a scalar-valued function. It describes the local curvature of a function of many variables.
