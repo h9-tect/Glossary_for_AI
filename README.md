@@ -1,7 +1,5 @@
 # Math Glossary
 
-## Definitions
-
 **Hessian**  
 A square matrix of second-order partial derivatives of a scalar-valued function, which is used in optimization to determine the curvature of multivariable functions.
 
@@ -95,8 +93,6 @@ A statistical theory that states when independent random variables are added, th
 # Computer Science Glossary
 
 
-## Definitions
-
 ### Polymorphism
 Polymorphism in computer science refers to the ability of a function or an object to take on many forms. It allows methods to do different things based on the object it is acting upon, essential for achieving abstraction and flexibility in object-oriented programming.
 
@@ -171,5 +167,72 @@ Loop unrolling is an optimization technique that involves duplicating the body o
 
 ### Complexity
 In computational theory, complexity refers to the amount of resources required for the execution of an algorithm. The more steps (time complexity) or memory (space complexity) an algorithm requires to complete, the more complex it is considered.
+
+# Machine Learning Glossary
+
+
+### VC Dimension
+The Vapnik-Chervonenkis (VC) dimension is a measure of the capacity of a statistical classification algorithm, defined as the cardinality of the largest set of points that the algorithm can shatter. It is used to quantify the complexity and capacity of a model to learn various functions.
+
+### Over-fitting, Under-fitting
+**Over-fitting** occurs when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. **Under-fitting** occurs when a model is too simple, both in terms of not capturing the underlying pattern of the data and not performing well on new data.
+
+### Logistic Regression
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model.
+
+### Q-value
+In reinforcement learning, a Q-value is a measure of the value of taking a particular action in a particular state, according to what the model currently knows about the environment. Q-values are used in certain types of learning algorithms to iteratively improve the behavior of the learning agent.
+
+### Kernel Trick
+The kernel trick is a method used in machine learning algorithms that enables them to operate in a high-dimensional, implicit feature space without ever computing the coordinates of the data in that space, but instead by computing the inner products between the images of all pairs of data in the feature space.
+
+### Boosting
+Boosting is an ensemble technique that attempts to create a strong classifier from a number of weak classifiers. It is done by building a model from the training data, then creating a second model that attempts to correct the errors from the first model.
+
+### PCA (Principal Component Analysis)
+Principal Component Analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.
+
+### Feature Design
+Feature design, also known as feature engineering, is the process of using domain knowledge of the data to create features that make machine learning algorithms work. It is fundamental to the application of machine learning, and involves an aspect of art as much as science.
+
+### Linear Regression
+Linear regression is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables).
+
+### Expectation-Maximization, GMM
+The **Expectation-Maximization (EM)** algorithm is an iterative method to find maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent variables. **Gaussian Mixture Models (GMMs)** are a type of model used in statistical data modeling involving multiple sub-populations, assuming that each sub-population follows a Gaussian distribution.
+
+### SVM (Support Vector Machine)
+Support Vector Machine (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. It performs classification by finding the hyperplane that best divides a dataset into classes.
+
+### Bellman Equation
+The Bellman equation, also known as dynamic programming equation, describes the principle of optimality for dynamic systems. It plays a crucial role in reinforcement learning and optimal control.
+
+### Decision Tree
+A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility.
+
+### Train/Validation/Test Sets
+These sets are used to evaluate how well a machine learning model will perform on independent data. **Training set** is used to train the model, **validation set** is used to tune the parameters of the model, and **test set** is used to test the performance of the model.
+
+### Naive Bayesian Model
+Naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' theorem with strong (naive) independence assumptions between the features.
+
+### Autoregressive Model
+An autoregressive model is a representation of a type of random process; as such, it is used to describe certain time-varying processes in nature, economics, etc.
+
+### Bias-Variance Dilemma
+The bias-variance dilemma is the problem of simultaneously minimizing two sources of error that prevent supervised learning algorithms from generalizing beyond their training set: the bias, which is the error caused by approximations, and the variance, which is the error caused by random fluctuations in the training set.
+
+### Policy Gradient
+Policy gradient methods are a class of reinforcement learning techniques that rely upon optimizing parametrized policies with respect to the expected return by gradient descent.
+
+### Random Forest
+Random Forest is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+
+### k-NN (k-Nearest Neighbors)
+The k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression. In both cases, the input consists of the k closest training examples in the feature space.
+
+### Perceptron Algorithm
+The perceptron is a simple algorithm for binary classifiers that is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.
+
 
 
