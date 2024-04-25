@@ -239,158 +239,158 @@ The perceptron is a simple algorithm for binary classifiers that is a type of li
 
 
 ### Adam
-Adam (Adaptive Moment Estimation) is an optimization algorithm that can be used instead of the classical stochastic gradient descent procedure to update network weights iterative based on training data.
+Adam (Adaptive Moment Estimation) is an optimization algorithm that combines the advantages of two other extensions of stochastic gradient descent: Adaptive Gradient Algorithm (AdaGrad) and Root Mean Square Propagation (RMSProp). It is designed to handle sparse gradients on noisy problems.
 
 ### Softmax
-Softmax is a function that turns logits (numeric output from the last linear layer of a multi-class classification neural network) into probabilities by taking the exponents of each output and then normalizing these values by dividing by the sum of all the exponents.
+The softmax function, or normalized exponential function, is a generalization of the logistic function that "squashes" a K-dimensional vector of arbitrary real values to a K-dimensional vector of real values in the range (0, 1) that add up to 1. It is used in multinomial logistic regression and is often the last operation done in a network.
 
 ### Residual Connections
-Residual connections are a type of shortcut connection typically used in deep neural networks to allow gradients to flow through a network directly, without passing through non-linear activation functions. This helps to mitigate the vanishing gradient problem in deep networks.
+Residual connections, or shortcuts, help to avoid the vanishing gradient problem in deep networks by allowing gradients to flow through a shortcut path. They are used extensively in deep residual networks (ResNets).
 
 ### Autograd
-Autograd is a Python package that provides automatic differentiation for all operations on Tensors. It is primarily used in deep learning for calculating the gradients of tensors to optimize model parameters.
+Autograd is a Python library that automatically differentiates native Python and Numpy code. It provides a flexible and efficient system for automatically computing gradients.
 
 ### ReLU
-ReLU (Rectified Linear Unit) is an activation function used in neural networks that outputs the input directly if it is positive; otherwise, it outputs zero. It has become the default activation function for many types of neural networks because it introduces non-linearity without affecting the gradients much.
+Rectified Linear Unit (ReLU) is a type of activation function that is defined as the positive part of its argument, where \(f(x) = max(0, x)\). ReLU is popular because it speeds up training without a significant penalty to generalization accuracy.
 
 ### Dropout
-Dropout is a regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data. It works by randomly setting the outgoing edges of hidden units (neurons that make up the hidden layers) to 0 at each update of the training phase.
+Dropout is a technique for addressing overfitting. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much.
 
 ### CLIP
-CLIP (Contrastive Language-Image Pre-training) is a learning model developed by OpenAI that efficiently learns visual concepts from natural language supervision. It bridges the gap between visual and language understanding by pre-training on a variety of image-text pairs.
+CLIP (Contrastive Language–Image Pre-training) by OpenAI leverages large amounts of data and computational resources to link images with texts in a way that enables zero-shot classification of images by using natural language.
 
 ### Xavier's Initialization
-Xavier's initialization, also known as Glorot initialization, is a weight initialization technique for deep neural networks that aims to maintain a variance of 1 across layers during forward and backward propagation.
+Also known as Glorot initialization, this technique provides an effective way to initialize the weights of a neural network to help prevent the vanishing or exploding gradient problems during training.
 
 ### Vanishing Gradient
-The vanishing gradient problem occurs in training deep neural networks, when gradients are backpropagated to earlier layers and reduced exponentially, which drastically slows down the training by making it difficult to tune the weights of earlier layers.
+The vanishing gradient problem occurs when the gradient of the loss function is propagated backward through the network, and the gradient can become vanishingly small, effectively preventing the weights from changing its value.
 
 ### LeNet
-LeNet is one of the earliest convolutional neural networks that helped propel the field of deep learning. It was originally designed to classify handwritten and machine-printed characters.
+Developed by Yann LeCun, LeNet was one of the first convolutional neural networks which efficiently applied the gradient-based learning methods to digital images. It was primarily developed for handwriting and character recognition.
 
 ### ViT
-ViT (Vision Transformer) is a model for image classification tasks, which applies the transformer architecture, originally designed for natural language processing, to images.
+Vision Transformer (ViT) applies the principles of the transformer architecture, typically used for natural language processing, to image classification tasks.
 
 ### Transposed Convolution Layer
-A transposed convolution layer, often referred to as a deconvolution layer, is used in convolutional neural networks to upsample a feature map to a higher resolution or dimension.
+Transposed convolutions are used in convolutional neural networks to upsample input feature maps, often as part of a process to increase the resolution of images in tasks like image segmentation.
 
 ### Checkpoint (during the forward pass)
-In deep learning, a checkpoint during the forward pass refers to saving the intermediate state of a neural network (like weights or feature maps) at certain intervals, to facilitate both model development and training efficiency.
+Creating checkpoints during the forward pass of training a neural network helps in saving the model's state at intermittent points. This can be used for recovery if the training process is interrupted, or for starting subsequent training runs from a particular state.
 
 ### Minibatch
-A minibatch is a subset of the training dataset that is used to train the model in each iteration. Using minibatches helps to approximate the gradient of the entire dataset more quickly, which speeds up the learning process.
+In neural network training, a minibatch is a subset of the training dataset used to train the model for a single iteration. This allows for both efficient computation and more stable convergence in stochastic gradient descent.
 
 ### Masked Model
-A masked model in the context of deep learning, especially in natural language processing, refers to models where certain entries in the input data are masked or hidden from the model during training, typically to prevent the model from merely memorizing the data.
+In models such as transformers, masking involves hiding certain elements of the input from the model; this is a critical part of training language models to handle arbitrary input sequences efficiently.
 
 ### Supervised / Unsupervised
-Supervised learning involves training a model on a labeled dataset, where each training example is paired with an output label. Unsupervised learning, by contrast, involves training a model on a dataset without explicit labels, and the model tries to learn the underlying patterns without pre-existing labels.
+Supervised learning algorithms are trained using labeled data, while unsupervised learning algorithms are trained using unlabeled data, which allows them to find structure in the input data on their own.
 
 ### Data Augmentation
-Data augmentation involves artificially increasing the size and diversity of a training dataset by creating modified versions of images in the dataset. This helps improve the robustness and accuracy of models by providing a broader range of data for training.
+Data augmentation involves artificially increasing the diversity of data available for training models without actually collecting new data. Techniques include rotation, cropping, resizing, and color modification among others.
 
 ### Attention Block
-An attention block in a neural network, particularly in the context of transformers, is a mechanism that selectively focuses on certain parts of the input data and not on others, which enhances the model's ability to learn important features.
+In deep learning, especially in models like transformers, attention blocks help the model focus on relevant parts of the input data, improving the accuracy and efficiency of tasks like language translation.
 
 ### SGD
-Stochastic Gradient Descent (SGD) is a simple yet very efficient approach to fitting linear classifiers and regressors under convex loss functions such as (linear) Support Vector Machines and Logistic Regression.
+Stochastic Gradient Descent (SGD) is a simple yet highly effective approach to fitting linear classifiers and regressors under convex loss functions. It's particularly useful for large-scale and sparse machine learning problems.
 
 ### Batchnorm
-Batch normalization is a technique for improving the speed, performance, and stability of artificial neural networks. It normalizes the inputs of each layer in a way that it maintains the mean output close to 0 and the output standard deviation close to 1.
+Batch normalization is a technique to provide any layer in a neural network with inputs that are zero mean/unit variance, and by doing so, helps in speeding up the training of neural networks.
 
 ### Gradient Clipping
-Gradient clipping is a technique used to prevent exploding gradients in neural networks, particularly in the context of recurrent neural networks. It does so by capping the gradients during backpropagation to keep them within a manageable range.
+Gradient clipping involves limiting (or "clipping") the values of gradients during backpropagation to address the exploding gradients problem in training deep neural networks.
 
 ### Tokenizer
-A tokenizer is a process in natural language processing that converts text into an organized structure, usually breaking down phrases and sentences into individual words or tokens, which are then used as input for other types of models.
+A tokenizer processes text to break it down into its constituent parts (tokens), which are often words or subwords, making the text more amenable to deep learning models.
 
 ### VAE
-VAE (Variational Autoencoder) is a type of autoencoder that provides a probabilistic manner for describing an observation in latent space. It is widely used in generating complex models like images.
+Variational Autoencoders (VAE) are a type of generative model that use a probabilistic approach to describe observations in a latent space. Unlike standard autoencoders, VAEs are designed to impose a distribution on the latent variables.
 
 ### Weight Decay
-Weight decay is a regularization technique that adds a small penalty, usually in the form of L2 norm of the weights, to the loss function. This penalty discourages learning overly complex models, which helps to prevent overfitting.
+Weight decay is a regularization technique used to add a small penalty, which is a fraction of weight magnitude, to the loss function. The penalty term is proportional to the square of the value of the weights.
 
 ### GELU
-GELU (Gaussian Error Linear Unit) is an activation function that is used to add non-linearity to the model. It performs similarly to ReLU but smooths the input using the Gaussian distribution.
+The Gaussian Error Linear Unit (GELU) is a non-linear activation function used in deep learning that models the data better on complex tasks like natural language understanding.
 
 ### LSTM, GRU
-LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) are types of RNN architectures that are designed to help guard against the vanishing gradient problem in traditional RNNs, making them effective for learning dependencies among data points in time series data.
+Long Short-Term Memory (LSTM) units and Gated Recurrent Units (GRU) are types of RNN architectures designed to help capture information over extended sequences, useful in applications like time series prediction and natural language processing.
 
 ### GAN
-GAN (Generative Adversarial Network) is a class of machine learning frameworks designed by a system of two neural networks contesting with each other in a zero-sum game framework. One network generates candidates and the other evaluates them.
+Generative Adversarial Networks (GANs) consist of two neural networks, a generator and a discriminator, that are trained simultaneously. The generator's goal is to produce data indistinguishable from real data, while the discriminator tries to differentiate between real and generated data.
 
 ### ResNet
-ResNet, short for Residual Network, is a specific type of neural network that was designed to help networks learn faster and more effectively. It utilizes the concept of skip connections or shortcuts to jump over some layers.
+Residual Networks (ResNet) are a type of convolutional neural network (CNN) where connections skip one or more layers. They are designed to enable training of extremely deep neural networks to achieve better performance.
 
 ### Straight-Through Estimator
-A straight-through estimator is a method for backpropagation through non-differentiable units in neural networks, which can be used to train binary networks where conventional backpropagation cannot be directly applied.
+The Straight-Through Estimator is a method for backpropagation through discrete variables. It is commonly used for training models that include non-differentiable operations, like quantization.
 
 ### Convolution Layer
-A convolutional layer is a core building block of a CNN. The layer's parameters consist of a set of learnable filters, which have a small receptive field, but extend through the full depth of the input volume.
+Convolutional layers are the building blocks of convolutional neural networks (CNNs). These layers apply a convolution operation to the input, passing the result to the next layer.
 
 ### Pre-training / Fine-tuning
-Pre-training refers to training a model on a large dataset with a general task, and fine-tuning is the subsequent additional training on a smaller, specific dataset to specialize the model for a particular task.
+Pre-training refers to training a neural network model on a large dataset with a general-purpose task before it is fine-tuned on a specific task. This helps in improving the performance of the neural network on tasks that have smaller datasets.
 
 ### Perplexity
-In the context of language models, perplexity is a measurement of how well a probability model predicts a sample. A low perplexity indicates the probability distribution is good at predicting the sample.
+Perplexity is a measure of how well a probability model predicts a sample, often used to evaluate language models. A lower perplexity score indicates better predictive performance.
 
 ### Logits
-Logits are the raw scores output by the last layer of a neural network before activation function is applied. They can be seen as unnormalized log probabilities.
+In the context of neural networks, logits are the raw outputs of the last layer in the network before applying the activation function like softmax.
 
 ### CLS Token
-In Transformer architectures, particularly in models like BERT, the CLS token is a special symbol added to the beginning of each input example. This token is used to aggregate information across the entire input sequence for classification tasks.
+In models such as BERT, the CLS token is added to the beginning of each input example and is used as the aggregate representation for classification tasks.
 
 ### Forward Pass
-A forward pass in a neural network is the process of moving input data through the network layers in sequence to generate output.
+The forward pass in a neural network refers to the process of computing the output of the network for a given input by passing it through each layer in turn.
 
 ### Transformer (original one), GPT
-The Transformer model, introduced in the paper "Attention is All You Need", is a type of architecture that relies entirely on attention mechanisms without recurrence. GPT (Generative Pre-trained Transformer) is an architecture based on Transformers for generating text.
+The Transformer model is a type of architecture that relies solely on attention mechanisms to draw global dependencies between input and output. The Generative Pre-trained Transformer (GPT) is a version of Transformer with a specific training method that uses unsupervised learning, which then can be fine-tuned with supervised learning tasks.
 
 ### Backward Pass
-The backward pass in neural networks refers to the process of backpropagation, where gradients are computed by tracing the network's operations in reverse order from output to input.
+The backward pass in neural networks is the process where gradients are computed for network parameters, typically used for training via backpropagation.
 
 ### Autoencoder, Denoising Autoencoder
-An autoencoder is a type of neural network used to learn efficient codings of unlabeled data. A denoising autoencoder, in particular, is an autoencoder that learns to correct data that has been intentionally noised during training.
+An autoencoder is a type of neural network used to learn efficient encodings. The denoising autoencoder is a variant that is trained to use the encoded representation to reconstruct the input from a corrupted version of it.
 
 ### Layer Norm
-Layer normalization is a technique to normalize the inputs across the features instead of the batch dimension in neural networks. This is particularly useful in recurrent neural networks.
+Layer normalization is a technique that normalizes the inputs across the features instead of the batch in neural networks. It is particularly useful in recurrent neural networks.
 
 ### GNN
-Graph Neural Networks (GNNs) are a type of neural network that directly operates on the graph structure. GNNs capture the dependency of graphs via message passing between the nodes of graphs.
+Graph Neural Networks (GNNs) are designed to process data that is represented as graphs, enabling new forms of learning where the model can take graph structure into account.
 
 ### Learning Rate Schedule
-A learning rate schedule adjusts the learning rate during training by reducing the learning rate according to a pre-defined schedule. Common strategies include step decay, exponential decay, and cyclical learning rates.
+A learning rate schedule modifies the learning rate during training, typically reducing the rate according to a predefined schedule. This helps in optimizing the training process.
 
 ### Diffusion Model
-Diffusion models are a class of generative models that learn to generate data by modeling the reverse process of diffusing the data distribution to a known distribution, typically Gaussian.
+Diffusion models are a type of generative model that constructs data by starting from noise and gradually shaping it towards the data distribution through a process known as denoising.
 
 ### Cross-Entropy
-Cross-entropy is a loss function that measures the performance of a classification model whose output is a probability value between 0 and 1. It increases as the predicted probability diverges from the actual label.
+Cross-entropy is a measure from the field of information theory, building upon entropy and generally used to quantify the difference between two probability distributions.
 
 ### Max Pooling, Average Pooling
-Pooling layers in a CNN downsample the image data extracted by the convolutional layers to reduce the dimensionality of the feature map in order to decrease the computational power required to process the data. Max pooling uses the maximum value from each cluster of neurons at the prior layer, whereas average pooling uses the average value.
+Pooling layers downsample each feature map in the network, reducing the dimensions and allowing for assumptions to be made about features contained in the sub-regions binned. Max pooling and average pooling are techniques to perform this downsampling by taking the maximum and average value, respectively, in each patch of the feature map.
 
 ### RNN
-Recurrent Neural Network (RNN) is a type of neural network where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior for a time sequence.
+Recurrent Neural Networks (RNNs) are a class of neural networks where connections between units form a directed cycle. This creates an internal state of the network which allows it to exhibit dynamic temporal behavior.
 
 ### Contrastive Loss
-Contrastive loss is a type of loss function used in machine learning to learn a task by distinguishing between pairs of similar and dissimilar items. It's used primarily to learn embeddings or representations.
+Contrastive loss is used in learning algorithms that aim to learn from the similarity and dissimilarity between pairs of samples, commonly used in tasks like image captioning and face verification.
 
 ### Positional Encoding
-Positional encoding is a method used in Transformer models to inject information about the position of the tokens in the input sequence. It helps the model to use the order of the sequence.
+Positional encoding is used in Transformer models to give the model information about the relative or absolute positioning of the tokens in the input sequences.
 
 ### Causal Model
-In deep learning, a causal model attempts to model and reason about the world in terms of cause-and-effect relationships. This is particularly useful in scenarios where interventions are required, such as in decision making.
+Causal models in deep learning are used to understand and manage the cause and effect relationships. They are crucial for decision-making processes where predictions or simulations of potential outcomes are needed.
 
 ### Attention Layer
-An attention layer within a neural network is a component that assigns a weight to input features based on their relevance. In deep learning, attention mechanisms can dynamically highlight relevant features and suppress less important ones.
+An attention layer is a component in neural network architectures that weighs the input features of the data based on their importance to the task at hand. It is a key component of models that require focus on specific aspects of the input data, such as models that involve natural language processing.
 
-### SSL
-Self-supervised learning (SSL) is an approach in machine learning where the system learns to understand a dataset by exposing itself to altered versions of the data. The goal is to predict the part of the data that has been changed.
+### SSL (Self-Supervised Learning)
+Self-supervised learning is a form of unsupervised learning where the data provides the supervision. It involves creating a pretext task, such as predicting the next word in a sentence, to help the model learn the proper context and features from the data.
 
-### MSE
-Mean Squared Error (MSE) is a common loss function used for regression models. It measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
+### MSE (Mean Squared Error)
+Mean Squared Error (MSE) is a common loss function used in regression problems. It measures the average squared difference between the estimated values and what is estimated.
 
 ### Tensor
-In the context of deep learning, a tensor is a generalization of vectors and matrices to potentially higher dimensions. Internally, TensorFlow and similar libraries use tensors to represent all data.
+In the context of machine learning, a tensor is a generalization of vectors and matrices to potentially higher dimensions, and is a primary data structure used in neural networks.
 
