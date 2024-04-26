@@ -29,7 +29,7 @@ Mutual information measures the amount of information that can be obtained about
 - Formula (uses $Riemann's Sum Notation$): $\sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+u_{n-1} v_{n-1} +u_n v_n$ 
 
 > Euclidean Geometry (Vector maths)
-- Definition: Recall, vector $(u)$ and vector $(v)$ are intersecting vectors at a point $(p)$, then it follows that the sum of the product of their corresponding vector components is known as the "dot product", and following the proof, it can be stated that this is equivalent to multiplying the vector norms together with cosine the inscribed angle between them.
+- Definition: Recall, vector $(u)$ and vector $(v)$ are intersecting vectors at a point $(p)$, then it follows that the sum of the products of their corresponding vector components is known as the "dot product", and following the proof, it can be stated that this is equivalent to multiplying the vector norms together with cosine the inscribed angle between them.
 - Formula: u.v = $[u_0, u_1, u_2].[v_0, v_1, v_2]$ = $u_0 v_0 + u_1 v_1 + u_2 v_2$ = $||u|| * ||v|| * cos(a)$; where (<a) is the inscribed angle between vector $(u)$ and vector $(v)$ in an Euclidean vector-space.
 
 > Usages: 
