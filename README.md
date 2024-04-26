@@ -15,7 +15,7 @@ H(f) = \begin{bmatrix}
     \vdots  & \vdots  & \ddots & \vdots  \\
     \frac{\partial^2 f}{\partial x_n \partial x_1} & \frac{\partial^2 f}{\partial x_n \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
 \end{bmatrix}
-
+```
 ### Random Variable
 A random variable is a variable whose possible values are numerical outcomes of a random phenomenon. There are two types of random variables: discrete and continuous.
 
@@ -52,7 +52,6 @@ Mutual information measures the amount of information that can be obtained about
 > References: 
 - Thomas' Calculus 14e: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
 
-> Edited by: [@pavl_g](https://github.com/Scrappers-glitch)
 
 -------------------
 ### Mean
