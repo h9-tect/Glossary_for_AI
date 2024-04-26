@@ -22,6 +22,7 @@ In information theory, entropy is a measure of the unpredictability or the rando
 Mutual information measures the amount of information that can be obtained about one random variable by observing another.
 
 ### Dot Product
+-------------------
 
 > Discrete Mathematics
 - Definition: An algebraic operation that takes two sequences of numbers or two sets of homogenous number of elements (e.g., $u_n$ and $v_n$) and returns a scalar obtained by multiplying corresponding entries (or elements), and then summing the resulting products.
@@ -43,6 +44,9 @@ Mutual information measures the amount of information that can be obtained about
 > References: 
 - Thomas' Calculus 14e: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
 
+> Edited by: [@pavl_g](https://github.com/Scrappers-glitch)
+
+-------------------
 ### Mean
 The mean or average is the central value of a discrete set of numbers, specifically, the sum of the values divided by the number of values.
 
