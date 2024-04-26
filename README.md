@@ -6,7 +6,6 @@ This repository is based on the insights shared by Professor François Fleuret. 
 
 # Math Glossary
 
-
 ### Hessian
 The Hessian matrix is a square matrix of second-order partial derivatives of a scalar-valued function. It describes the local curvature of a function of many variables.
 
@@ -23,7 +22,26 @@ In information theory, entropy is a measure of the unpredictability or the rando
 Mutual information measures the amount of information that can be obtained about one random variable by observing another.
 
 ### Dot Product
-The dot product is an algebraic operation that takes two equal-length sequences of numbers and returns a single number obtained by multiplying corresponding entries and then summing those products.
+
+> Discrete Mathematics
+- Definition: An algebraic operation that takes two sequences of numbers or two sets of homogenous number of elements (e.g., $u_n$ and $v_n$) and returns a scalar obtained by multiplying corresponding entries (or elements), and then summing the resulting products.
+- Formula (uses Riemann's Sum Notation): $\sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+u_{n-1} v_{n-1} +u_n v_n$ 
+
+> Euclidean Geometry (Vector maths)
+- Definition: Recall, vector (u) and vector (v) are intersecting vectors at a point (p), then it follows that the sum of the product of their corresponding vector components is known as the "dot product", and following the proof, it can be stated that this is equivalent to multiplying the vector norms together with cosine the inscribed angle between them.
+- Formula: u.v = $[u_0, u_1, u_2].[v_0, v_1, v_2]$ = $u_0 v_0 + u_1 v_1 + u_2 v_2$ = $||u|| * ||v|| * cos(a)$; where (<a) is the inscribed angle between vector $(u)$ and vector $(v)$ in an Euclidean vector-space.
+
+> Usages: 
+- Finding the work done by a force vector (F) to move an object a displacement (D) with an inscribed angle (a), formula: $W = F.D = ||F|| * ||D|| x cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+ u_{n-1} v_{n-1} + u_n v_n$ (Physics).
+- Finding the inscribed angle (<a) between 2 intersecting vectors, formula: m(<a) $= acos(u.v/(||u|| * ||v||)) = cos(u.v/(||u|| * ||v||)) * 2 * PI$; where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
+- Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2)$ = ZERO (Geometry).
+- Finding the total electromotive force (EMF) in a closed circuit loop, formula: $V = I * R * cos(0)$ (aka. Ohm's Law).
+- Finding the driving arterial blood pressure in a closed arterial circuitry, formula: $BP = CO * SVR * cos(0)$ (Hemodynamics).
+> Proves:
+- From the "Law of Cousines", formula: $||w||^2 = ||u||^2 + ||v||^2 - 2 ||u|| * ||v|| * cos(a)$.
+
+> References: 
+- Thomas' Calculus 14e: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
 
 ### Mean
 The mean or average is the central value of a discrete set of numbers, specifically, the sum of the values divided by the number of values.
