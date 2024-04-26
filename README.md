@@ -34,7 +34,7 @@ Mutual information measures the amount of information that can be obtained about
 
 > Usages: 
 - Finding the work done by a force vector (F) to move an object a displacement (D) with an inscribed angle (a), formula: $W = F.D = ||F|| * ||D|| x cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+ u_{n-1} v_{n-1} + u_n v_n$ (Physics).
-- Finding the inscribed angle (<a) between 2 intersecting vectors, formula: m(<a) $= acos(u.v/(||u|| * ||v||)) = cos(u.v/(||u|| * ||v||)) * 2 * PI$; where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
+- Finding the inscribed angle (<a) between 2 intersecting vectors, formula: m(<a) $= acos(u.v/(||u|| * ||v||))$; where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
 - Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2)$ = ZERO (Geometry).
 - Finding projection vectors, formula: "the vector projection of $u$ onto $v$" $proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$; where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
 - Finding the total electromotive force (EMF) in a closed circuit loop, formula: $V = I * R * cos(0)$ (aka. Ohm's Law).
@@ -44,7 +44,6 @@ Mutual information measures the amount of information that can be obtained about
 
 > References: 
 - Thomas' Calculus 14e: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
-
 
 -------------------
 ### Mean
