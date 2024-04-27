@@ -61,7 +61,7 @@ The L2 norm is the Euclidean norm, which represents the length of a vector in Eu
 
 > Definition:
 - The chain rule is a formula to compute the derivative of a composite function, by multiplying the derivative of the compositor function
-by its substrate (base) function; it deals with the substrate function as if it were a scalar function that scales the value of the compositor function;
+by the derivative of its substrate (base) function; it deals with the substrate function as if it were a scalar function that scales the value of the compositor function;
 on the graph, the function is curved in terms of the substrate function.
 
 > Formula:
