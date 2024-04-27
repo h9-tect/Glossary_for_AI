@@ -39,8 +39,13 @@ Mutual information measures the amount of information that can be obtained about
 - Finding projection vectors, formula: "the vector projection of $u$ onto $v$" $proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$; where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
 - Finding the total electromotive force (EMF) in a closed circuit loop, formula: $V = I * R * cos(0)$ (aka. Ohm's Law).
 - Finding the driving arterial blood pressure in a closed arterial circuitry, formula: $BP = CO * SVR * cos(0)$ (Hemodynamics).
-> Proves:
+
+> Proofs:
 - From the $"Law of Cousines"$, formula: $||w||^2 = ||u||^2 + ||v||^2 - 2 ||u|| * ||v|| * cos(a)$.
+
+> Compare: 
+- Vector (Cross) Product (aka. Product Set in discrete mathematics).
+- Triple Scalar (or Box Product).
 
 > References: 
 - Thomas' Calculus 14e: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
