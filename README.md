@@ -87,6 +87,9 @@ differentiable at $x$, and: $(ƒ ∘ g)′(x) = ƒ′(g(x)).g′(x)$ or $d(ƒ �
 7) Evaluation of the L.H.S. and the R.H.S. of the _Leibniz's notation_ in a finite-state fashion, by multiplying
 _step.04_ and _step.03_, and evaluating the result with _step.02_.
 
+> Compare: 
+- Antiderivation of the composite functions.
+
 > References:
 - Thomas' Calculus 14-e: Ch.03 Derivatives: Section-3.6 (The Chain Rule).
 
