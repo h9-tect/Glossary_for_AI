@@ -97,7 +97,6 @@ _step.04_ and _step.03_, and evaluating the result with _step.02_.
 > References:
 - Thomas' Calculus 14-e: Ch.03 Derivatives: Section-3.6 (The Chain Rule).
 
-> Edited by: [@pavl_g](https://github.com/Scrappers-glitch)
 
 -------------------
 ### Fourier Transform
