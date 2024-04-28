@@ -61,8 +61,45 @@ Variance is a measure of the dispersion of a set of data points around their mea
 The L2 norm is the Euclidean norm, which represents the length of a vector in Euclidean space, calculated from the square root of the sum of the squared vector components.
 
 ### Chain Rule (Differentiation)
-The chain rule is a formula to compute the derivative of a composite function.
+-------------------
 
+> Definition:
+- The chain rule is a formula to compute the derivative of a composite function, by multiplying the derivative of the compositor function
+by the derivative of its substrate (base) function; it deals with the substrate function as if it were a scalar function that scales the value of the compositor function;
+on the graph, the function is curved in terms of the substrate function.
+
+> Formula:
+- If u is a dummy (arbitrary) variable, it follows that if
+$ƒ(u)$ is differentiable at the point $u = g(x)$ and $g(x)$ is differentiable at $x$, then the composite function $(ƒ ∘ g) (x) = ƒ(g(x))$ is
+differentiable at $x$, and: $(ƒ ∘ g)′(x) = ƒ′(g(x)).g′(x)$ or $d(ƒ ∘ g)(x)/d(x) = [df(u)/ d(u)] . [dg(x)/d(x)]$ in _Leibniz's notation_.
+
+> Usages:
+- Quick-finds the derivative of a composite functions, if both functions are known (though you can still differentiate $(ƒ ∘ g)(x)$ directly).
+- Complex analysis of a function in terms of other functions (Application of multiple functions on the same object).
+
+> Steps to prove:
+1) Envision the following in an Euclidean vector-space $V_I$: 
+      - A dummy variable (u).
+      - A function $f(u) = 3u^2+1$.
+2) Envision the following in another Euclidean vector-space $V_{II}$:
+      - A dummy variable (x).
+      - A function $g(x) = x-1$.
+3) Find the original function $(ƒ ∘ g)(x)$ that lies in $V_I$, but uses scalars from $V_{II}$.
+4) Find the derivative of the composite function $(ƒ ∘ g)′(x)$ using limits.
+5) Find the derivative of the compositor function $f(u)$.
+6) Find the derivative of the substrate $g(x)$.
+7) Evaluation of the L.H.S. and the R.H.S. of the _Leibniz's notation_ in a finite-state fashion, by multiplying
+_step.04_ and _step.03_, and evaluating the result with _step.02_.
+
+> Compare: 
+- Antiderivation of the composite functions.
+
+> References:
+- Thomas' Calculus 14-e: Ch.03 Derivatives: Section-3.6 (The Chain Rule).
+
+> Edited by: [@pavl_g](https://github.com/Scrappers-glitch)
+
+-------------------
 ### Fourier Transform
 The Fourier Transform is a mathematical transform that decomposes functions depending on space or time into functions depending on spatial or temporal frequency.
 
