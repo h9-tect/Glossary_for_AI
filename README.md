@@ -26,22 +26,22 @@ Mutual information measures the amount of information that can be obtained about
 
 > Discrete Mathematics
 - Definition: An algebraic operation that takes two sequences of numbers or two sets of homogenous number of elements (e.g., $u_n$ and $v_n$) and returns a scalar obtained by multiplying corresponding entries (or elements), and then summing the resulting products.
-- Formula (uses $Riemann's Sum Notation$): $\sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+u_{n-1} v_{n-1} +u_n v_n$ 
+- Formula (uses $Riemann's Sum Notation$): $$\sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+u_{n-1} v_{n-1} +u_n v_n$$
 
 > Euclidean Geometry (Vector maths)
 - Definition: Recall, vector $(u)$ and vector $(v)$ are intersecting vectors at a point $(p)$, then it follows that the sum of the products of their corresponding vector components is known as the "dot product", and following the proof, it can be stated that this is equivalent to multiplying the vector norms together with cosine the inscribed angle between them.
-- Formula: u.v = $[u_0, u_1, u_2].[v_0, v_1, v_2]$ = $u_0 v_0 + u_1 v_1 + u_2 v_2$ = $||u|| * ||v|| * cos(a)$; where (<a) is the inscribed angle between vector $(u)$ and vector $(v)$ in an Euclidean vector-space.
+- Formula: $$u.v = [u_0, u_1, u_2].[v_0, v_1, v_2] = u_0 v_0 + u_1 v_1 + u_2 v_2 = ||u|| * ||v|| * cos(a) $$ ;where (<a) is the inscribed angle between vector $(u)$ and vector $(v)$ in an Euclidean vector-space.
 
 > Usages: 
-- Finding the work done by a force vector $(F)$ to move an object a displacement $(D)$ with an inscribed angle $(a)$, formula: $W = F.D = ||F|| * ||D|| x cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+ u_{n-1} v_{n-1} + u_n v_n$ (Physics).
-- Finding the inscribed angle (<a) between 2 intersecting vectors, formula: m(<a) $= acos(u.v/(||u|| * ||v||))$; where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
+- Finding the work done by a force vector $(F)$ to move an object a displacement $(D)$ with an inscribed angle $(a)$, formula (Physics): $$W = F.D = ||F|| * ||D|| x cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+ u_{n-1} v_{n-1} + u_n v_n$$
+- Finding the inscribed angle (<a) between 2 intersecting vectors, formula: $$m(a) = acos(u.v/(||u|| * ||v||))$$ ;where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
 - Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2)$ = ZERO (Geometry).
-- Finding projection vectors, formula: "the vector projection of $u$ onto $v$" $proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$; where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
-- Finding the total electromotive force (EMF) in a closed circuit loop, formula: $V = I * R * cos(0)$ (aka. Ohm's Law).
-- Finding the driving arterial blood pressure in a closed arterial circuitry, formula: $BP = CO * SVR * cos(0)$ (Hemodynamics).
+- Finding projection vectors, formula: "the vector projection of $u$ onto $v$", formula: $$proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$$ ;where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
+- Finding the total electromotive force (EMF) in a closed circuit loop, formula (aka. Ohm's Law): $$V = I * R * cos(0)$$
+- Finding the driving arterial blood pressure in a closed arterial circuitry, formula (Hemodynamics): $$BP = CO * SVR * cos(0)$$
 
 > Proofs:
-- From the $"Law of Cousines"$, formula: $||w||^2 = ||u||^2 + ||v||^2 - 2 ||u|| * ||v|| * cos(a)$.
+- From the $"Law of Cousines"$, formula: $$||w||^2 = ||u||^2 + ||v||^2 - 2 ||u|| * ||v|| * cos(a)$$.
 
 > Compare: 
 - Vector (Cross) Product (aka. Product Set in discrete mathematics).
