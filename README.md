@@ -69,9 +69,9 @@ by the derivative of its substrate (base) function; it deals with the substrate 
 on the graph, the function is curved in terms of the substrate function.
 
 > Formula:
-- If u is a dummy (arbitrary) variable, it follows that if
+- If $u$ is a dummy (arbitrary) variable, it follows that if
 $ƒ(u)$ is differentiable at the point $u = g(x)$ and $g(x)$ is differentiable at $x$, then the composite function $(ƒ ∘ g) (x) = ƒ(g(x))$ is
-differentiable at $x$, and: $(ƒ ∘ g)′(x) = ƒ′(g(x)).g′(x)$ or $d(ƒ ∘ g)(x)/d(x) = [df(u)/ d(u)] . [dg(x)/d(x)]$ in _Leibniz's notation_.
+differentiable at $x$, and: $$(ƒ ∘ g)′(x) = ƒ′(g(x)).g′(x)$$ or $$d(ƒ ∘ g)(x)/d(x) = [df(u)/ d(u)] . [dg(x)/d(x)]$$ in _Leibniz's notation_.
 
 > Usages:
 - Quick-finds the derivative of a composite functions, if both functions are known (though you can still differentiate $(ƒ ∘ g)(x)$ directly).
@@ -96,7 +96,6 @@ _step.04_ and _step.03_, and evaluating the result with _step.02_.
 
 > References:
 - Thomas' Calculus 14-e: Ch.03 Derivatives: Section-3.6 (The Chain Rule).
-
 
 -------------------
 ### Fourier Transform
